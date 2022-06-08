@@ -1,0 +1,21 @@
+h1 {
+font-size: 30px;
+font-weight: bold;
+color:black;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    }
+
+.intro {
+    background: url(/images/background.jpg);
+    background-size: cover;
+    webkit-background-size: cover;
+}

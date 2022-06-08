@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\style.css">
     <title>Мой крутой сайт</title>
 </head>
 
 <body>
-    <header>
+    <header class="intro">
+        <section>
         <img  src="https://i.ibb.co/J7YS7Lj/shapka.png" alt="Шапка">
-        <img  src="https://i.ibb.co/1J5VkN3/sashafame.png" alt="Саша Фейм">
+        <img  src="https://i.ibb.co/1J5VkN3/sashafame.png" alt="Саша Фейм" width="400">
         <img  src="https://i.ibb.co/j42YxDV/plashka-nav.png" alt="Навигация">
         <img  src="https://i.ibb.co/vjRYD6N/plashka.png" alt="Плашка">
         <h1>Welcome to my site, im Alexandr Fame</h1>
-        </header>
         <nav>
             <ul>
                 <li><a href="#">Main</a></li>
@@ -22,6 +23,7 @@
                 <li><a href="#">Fame`s blacklist</a></li>
                 </ul>
                 </nav>
+                </section>
                 </header>
 
                 <main>
@@ -44,7 +46,10 @@
                         <ol>
                           <li><a href="#">Egor Mihailov</a></li>
                         </ol>
-                
+                        
+                        <form action="/blacklist">
+                        <textarea placeholder="Введите заявку в черный список" rows="10" cols="30"></textarea>
+                        </form>
                     </main>
 
                     <footer>
